@@ -1,0 +1,76 @@
+#companyname{
+   
+    margin-left: 20px;
+    line-height: 90px;
+    color: white;
+    width: fit-content;
+    
+}
+
+header{
+   
+    display: block;
+    height: fit-content;
+    background-color: rgb(192, 127, 253);
+}
+
+.menu11{
+    position: relative;
+    display: none;
+    justify-content: center;
+    margin-left: -33px;
+}
+#ullist{
+    text-align: center;
+    display: inline;
+    left: 0;
+    width: 100%;
+
+}
+
+
+#iterm{
+    display: inline-block;
+    width: 100%;
+    background-color: darkgrey;
+    height: 40px;
+
+    text-decoration: none;
+}
+#lia{
+    text-decoration: none;
+
+}
+header img{
+    height: 50px;
+    width: auto;
+    float: right;
+ visibility: hidden;
+margin-top:20px ;
+margin-right: 20px;
+   
+}
+header h1{
+    display: inline;
+}
+#margintop{
+    margin-top: 30px;
+}
+#margintop h2{
+    text-align: center;
+}
+@media(max-width:576px){
+    header img{
+visibility: visible; 
+
+  }
+  .menuimage:hover .menu11{
+display: block;
+  }
+   /* .menu11{
+display: block;
+  }  */
+  #margintop{
+      margin-top: 50px;
+  }
+}
